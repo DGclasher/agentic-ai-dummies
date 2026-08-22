@@ -39,7 +39,7 @@ async def main():
     # })
 
     res = await agent.ainvoke({
-        "messages": [{"role":"user", "content": "Fetch me the weather details of Kolkata"}]
+        "messages": [{"role":"user", "content": "Fetch me the weather details of Washington"}]
     })
 
     print(res["messages"][-1].content)

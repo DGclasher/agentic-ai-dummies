@@ -7,7 +7,7 @@ def get_weather(city:str):
     """
     This function takes city as input and gives the weather details as output in string
     """
-    return "Its raining bitch"
+    return "Its raining"
 
 if __name__ == "__main__":
     mcp.run(transport="streamable-http")
