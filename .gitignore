@@ -6,6 +6,9 @@ dist/
 wheels/
 *.egg-info
 .vscode
+**/*.sqlite3
+**/*.bin
+**/*faiss_index*
 
 # Virtual environments
 .venv
